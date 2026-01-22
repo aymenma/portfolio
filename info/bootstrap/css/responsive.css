@@ -1,0 +1,144 @@
+@media (min-width: 280px) and (max-width: 599px) {
+  /*navbar*/
+.nav-item {
+  /* border-bottom: none border problem */
+} 
+ /*navbar*/
+  /* header  */
+  header {
+    padding-top: 130px;
+  }
+  header .head {
+    font-size: 40px;
+  }
+  header a {
+    font-size: 16px;
+  }
+  header img {
+    margin-top: 85px;
+    margin-bottom: 25px;
+  }
+  header .image div {
+    position: static;
+    display: block;
+    margin-bottom: 25px;
+  }
+  /* header */
+  /*about*/
+  .about .head {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .about .first-p {
+    width: 100%;
+  }
+  .boxes .box .font {
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .about .head-p2 {
+    margin-bottom: 20px;
+    width: 80%;
+    font-size: 30px;
+  }
+  .about .p-p2 {
+    margin-bottom: 30px;
+  }
+  .about .one {
+    left: 110px;
+    top: 80px;
+  }
+  .about .two {
+    top: 50px;
+    left: 84px;
+  }
+  .about .three {
+    width: 180px;
+    height: 180px;
+    right: 230px;
+    bottom: 83px;
+  }
+  .cercle {
+    left: 350px;
+    bottom: 90px;
+  }
+  /*about*/
+
+  .growth h2 {
+    text-align: center;
+  }
+  .growth hr {
+    width: 75px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .growth p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  /* growth */
+  .growth p {
+    width: 100%;
+    text-align: start;
+  }
+
+  .growth .box {
+    width: 100%;
+    height: 20%;
+    margin-left: 0;
+  }
+
+  /* growth */
+  /* services  */
+  .Services .image {
+    height: 400px;
+    margin-bottom: 15px;
+  }
+  .Services img {
+    height: 400px;
+  }
+  .services .box {
+    width: 100%;
+    text-align: center;
+
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  /* services  */
+  /*contact*/
+  .contact img {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+  }
+  .contact .box {
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .contact .font .fa-location-dot {
+    bottom: 30px;
+  }
+  .form-box {
+    padding: 10px 10px;
+  }
+  .form-box p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .form-box input[type="submit"] {
+    margin-bottom: 15px;
+  }
+  /*contact*/
+  /*footer*/
+footer .links{
+ padding: 15px;
+}
+  /*footer*/
+}

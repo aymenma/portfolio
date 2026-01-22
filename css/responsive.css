@@ -1,0 +1,108 @@
+
+/*@media (min-width: 280px) and (max-width: 599px){} xs
+
+@media (min-width: 600px) and (max-width: 767px){} sm
+
+@media (min-width: 768px) and (max-width: 991px){} med
+
+
+@media (min-width: 992px) and (max-width: 1199px){} larg
+*/
+
+@media (max-width: 599px){
+   
+    /* header  */
+    header {
+        background-size: 100% 100%;
+        
+      }
+      .navbar{
+        height: 10px;
+      }
+      .nav-item:hover .nav-link{
+        border-bottom: none;
+      }
+    .presentation {
+        padding-top: 220px;
+        padding-left: 10px; 
+      }
+      .presentation h2{
+        
+        font-size: 30px; 
+      }
+      .presentation h4{
+        font-size: 25px;
+      }
+         /* end header  */
+         /* skills  */
+         .skills .resume{
+           margin-left: 20%;
+           
+           
+         }
+         .skills .lang{
+          margin-top:50px;  
+         }
+         /* end skills  */
+
+         .proj{
+            margin-top: 10px;
+         }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px){
+  /* header  */
+  header {
+         
+        
+    background-size: 100% 100%;
+    
+  }
+  .navbar{
+    height: 10px;
+    
+  }
+  .nav-item:hover .nav-link{
+    
+    border-bottom: none;
+  }
+.presentation {
+
+    padding-top: 220px;
+    padding-left: 10px; 
+  }
+  .presentation h2{
+    
+    font-size: 30px; 
+  }
+  .presentation h4{
+    font-size: 25px;
+  }
+     /* end header  */
+     /* skills  */
+     .skills .resume{
+   /* margin-left: 90px; */
+   margin-left: 20%;
+     }
+     .skills .lang{
+      margin-top:50px;  
+     }
+     /* end skills  */
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+    .proj{
+        margin-top: 10px;
+     }
+     .nav-item:hover .nav-link{
+        
+        border-bottom: none;
+      }
+      .skills .lang{
+        margin-top:50px;  
+       }
+    
+
+
+}

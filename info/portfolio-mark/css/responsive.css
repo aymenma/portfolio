@@ -1,0 +1,20 @@
+@media only screen and (min-width: 280px) and (max-width: 599px){
+
+
+    header{ 
+        background-image: url(../images/header-background.jpg);
+        background-size:cover;
+        width: 100%;
+        height: 500px;
+       
+     
+    }
+
+    header .navbar{ --bs-navbar-padding-x: 15px; --bs-navbar-padding-y: 10; }
+
+    header h2{text-align: center; font-size:50px; 
+          padding-top:150px; padding-bottom: 20px; padding-left: ;}
+
+    header .btns { text-align: center;  }
+
+}

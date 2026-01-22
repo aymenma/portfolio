@@ -1,0 +1,186 @@
+/* header start  */
+header{ 
+    background-image: url(../images/header-background.jpg);
+    background-size:cover;
+    width: 100%;
+    height:780px ;
+    color: #FFF;
+}
+
+header .navbar{ --bs-navbar-padding-x: 15px; --bs-navbar-padding-y: 20px; }
+
+header .navbar a img{width: 40%; }
+
+header .navbar-collapse{flex-grow:initial;}
+
+header .nav-link{color:#ffffff;}
+
+header .navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {color: #9c9ead;}
+
+header .navbar .social-icons {  margin-left:15px; }
+
+header .navbar .social-icons .fa-stack {width: 25px;    color: #ffffff; }
+
+header .navbar .social-icons .fa-stack .fa-brands{line-height:2; font-size: 18px; color: #007bff; }
+
+header .navbar .social-icons .fa-stack .fa-brands:hover{color: #ffffff; }
+
+header h2{font-size:65px;  color:#ffffff; padding-top:200px; padding-bottom: 15px;}
+
+header button {padding: 15px 40px; color: #ffffff; font-weight: bold;}
+
+header .discoverbtn{ background-color: #0b36a8; border: 1px solid #0b36a8;}
+
+header .discoverbtn:hover{ background-color: #24262a;   border: 1px solid #ffffff;}
+
+header .contactbtn{ background: none; border: none; }
+
+header .contactbtn:hover{color: #4d5055;}
+/* header end  */
+
+/* about start  */
+.about{
+
+    background-color: #f7f9fb;
+}
+.about h2,.about h6{ color: #24262a; font-weight: bold;}
+
+.about p{color: #4d5055; line-height: 1.7;}
+
+.about span{color:#0b36a8; font-weight: bold ;}
+
+/* about end  */
+
+
+/* services start */
+
+.services{padding-bottom: 100px;}
+
+.services  .first {width: 70%; margin: auto; padding-bottom: 70px;}
+
+.services .box{border: 1px solid #cfd7de; padding: 40px 30px; }
+
+.services .box i  {font-size: 60px; color: #0b36a8; line-height: 1.7;}
+
+.services .box h2 {color: #24262a;}
+
+
+/* services end */
+
+/* split start  */
+.split{ background-color: #f7f9fb; }
+
+.split .image { background-image: url(../images/details-background.jpg); background-size: cover;}
+
+.split .part2{ padding-left: 70px; padding-top: 100px; padding-bottom: 100px; }
+
+.split .part2 p{width: 72%;}    
+
+.split .part2 .skillsimg{  padding-left: 0; padding-bottom: 30px;}
+
+.split .part2 .skillsimg li{list-style: none; float: left; width: 12%; }
+
+.split .part2 .skillsimg li img{width:70%; }
+
+/* split end  */
+
+/* project start  */
+.project .firstp{width: 70%; margin: auto; padding-bottom: 40px;}
+
+
+.project p{padding-top: 10px; padding-bottom: 40px;}
+
+.project p span{font-weight: bold;}
+
+.project .proj-img img{ padding: 0;}
+
+.project .proj-img img{width: 100%; padding: 0;}
+
+.project .box img{width: 100%;}
+
+
+/* project end  */
+
+/* testmonials start  */
+.testmonials{padding-bottom: 100px;}
+
+.testmonials h2 {width: 60%; margin: auto; padding-bottom: 70px;}
+
+.testmonials .testmtext{font-style: italic; color: #4d5055;}
+
+.testmonials .testmbox img {  width: 60px; height: 60px; border-radius: 50%; float: left; }
+
+.testmonials .testmbox p{color: #4d5055; padding-left: 10px;padding-left: 75px;}
+
+.testmonials .testmbox span{font-weight: bold; padding-left: 15px;} 
+
+
+/* testmonials end  */
+
+/*devider*/
+.section-devider{ background-color: #d3dae2; }
+
+/*devider*/
+
+/* question start  */
+
+.question{ padding-bottom: 100px;}
+
+.question .h2-heading{padding-bottom: 50px;}
+
+.accordion-header button::before{
+    /*float: left;*/
+    margin-right: 0.625rem;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f078";
+
+}
+.accordion-header button::after{
+    content: none;
+}
+
+/* question end */
+
+/* contact  start  */
+.contact {background-color: #f7f9fb;padding-bottom: 70px;}
+
+.contact .first-p{width: 60%; margin:auto; padding-bottom: 50px;}
+
+.contact form input,.contact form textarea{width: 60%; margin: auto; padding: 10px; margin-bottom: 20px;}
+
+.contact form textarea{padding-bottom: 100px;}
+
+.contact form input[type="submit"]{color:#ffffff; background-color: #0b36a8; border: 1px solid #0b36a8; border-radius: 36px;}
+
+.contact form input[type="submit"]:hover{color: #24262a;background-color: #ffffff; border: 1px solid #ffffff; font-weight: bold;  }
+
+/* contact end */
+
+/* footer start  */
+
+footer{background-color: #24262a; padding-top: 70px; }
+
+footer p {color:#4d5055; padding-bottom:20px ; margin-bottom: 0; color: #9da6ac; padding-top: 30px;}
+
+footer a{font-size: 30px;}
+
+
+
+
+
+
+
+
+
+/* my freamwork start  */
+.section-padding{padding-top:100px ;}
+
+.h2-heading{    color: #24262a; font-weight: bold;}
+
+.p-heading{color:#4d5055;}
+
+
+/* my freamwork end  */
+
